@@ -3,9 +3,11 @@
 
 const {john, peter} = require("./4-namesForLesson3")
 const {sayHi, addTwo} = require("./5-functionsForLesson3")
+const data = require("./6-alternantiveExportSyntax")
+require("./7-mindGrenade") // when you invoke a function in a module, it will still run
 
-
-sayHi("sean")
-sayHi(john)
-sayHi(peter)
-console.log(addTwo(25))
+// console.log(data)
+// sayHi("sean")
+// sayHi(john)
+// sayHi(peter)
+// console.log(addTwo(25))
