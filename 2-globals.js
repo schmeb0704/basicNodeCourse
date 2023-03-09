@@ -3,7 +3,7 @@
 // __dirname - path to current directory
 // __filename - file name
 // require - funciton to use modules, just like import
-// module - info about current module
+// module - info about current module - try console.log(module) and you'll see what you need - most espcially module.exports
 // process - info about env where the program is being executed
 
 // console.log(__dirname)
