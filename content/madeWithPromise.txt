@@ -1,0 +1,2 @@
+This is created using promises. Combinig text from first and third text files. Result: First text file This is created using writeFileSync. Combinig text from first and second. Result: First text file second file
+ I am just appending this line, not overwriting the whole file
