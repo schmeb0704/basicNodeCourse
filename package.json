@@ -1,0 +1,28 @@
+{
+  "name": "tut1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-intro.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon 12-http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmeb0704/basicNodeCourse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schmeb0704/basicNodeCourse/issues"
+  },
+  "homepage": "https://github.com/schmeb0704/basicNodeCourse#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.21"
+  }
+}

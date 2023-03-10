@@ -4,8 +4,14 @@ const server = http.createServer((req, res)=>{ //req is what we're getting, res 
     if(req.url === '/'){
         return res.end("Welcome to home page")
 
-    } else if(req.url === '/about'){
-        return res.end("Who are we?") // put return so js will stop reading till the end of the code and sending 2 responses to the same request
+    }
+    
+    if(req.url === '/about'){
+        return res.end("Who are we? we are hatdog") // put return so js will stop reading till the end of the code and sending 2 responses to the same request
+    }
+
+    if (req.url === "/monitoring"){
+        return res.end("nothing to be seen here")
     }
 
     res.end(`
